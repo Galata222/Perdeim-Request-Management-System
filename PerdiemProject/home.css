@@ -1,0 +1,500 @@
+body {
+				font-family: verdina;
+				background-image: url("finance.jpg");
+
+		       background-repeat: no-repeat;
+		       background-size: cover;
+		}
+		header {
+			position: absolute;
+			background-color: #2980B9;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			color: white;
+			position: fixed;
+			 z-index: 2;
+		}
+		header{
+			height: 20vh;
+			margin-bottom: 10px;
+		}
+		header img {
+			position: absolute;
+			left: 0;
+			width:20vh ;
+			height:19vh ;
+
+		}
+		header h2 {
+			position: absolute;
+			margin-top: 20px;
+			left: 50%;
+		}
+		
+		.hhh{
+
+			height:10vh;
+			bottom: -120vh;
+			position: relative;
+			background-color: #2980B9;
+			width: 100%;
+			color: white;
+
+		
+		}
+		.hhh h3 {
+		position: absolute;
+		top: 120px;
+
+		}
+		
+		
+		
+		.form{
+			width: 406px;
+			margin: 170px auto 0; 
+  	position: absolute;
+  	top: 30vh;
+  	left: 50vh;
+  	border-radius: 20px;
+  	padding: 25px;
+  	margin-top: 100px;
+	border: 2px solid #2980B9;
+	color:black;
+	font-weight: 300px;
+	  
+
+
+		}
+		.form h3{
+  	width: 220px;
+  	font-family: sans-serif;
+  	text-align: center;
+  	color: #ff7200;
+  	font-size: 22px;
+  	border-radius: #fff;
+  	border-radius: 10px;
+  	margin: 2px;
+  	padding: 8px;
+  }
+  .form input {
+	width: 220px; 
+	display: block; 
+	padding: 4px; 
+	margin: 0 0 10px 0; 
+	font-size: 18px;
+	color: #3a3a3a; 
+	font-family: Georgia, serif;
+  }
+  .form input:focus {
+  	outline: none;
+  }
+  .form button {
+  	margin: 6px;
+  	
+  	
+   }
+   .form button a{
+   	text-decoration: none;
+   }
+   .nav{
+position: absolute;
+top: 25vh;
+left: 30vh;
+position: fixed;
+background-color: #2980B9;
+padding: 20px;
+margin: 10px;
+width: 50%;
+z-index: 1;
+font-size: 18px;
+
+   }
+   a{
+	   text-decoration: none;
+	   margin: 10px;
+	   color: #fff;
+   }
+a:hover{
+	color: #ff7200;
+}
+	*					{ margin: 0; padding: 0; }
+body				{ font-family: Georgia, serif; 
+	                  background: url(finance.jpg) top center no-repeat #c4c4c4;
+					   color: #3a3a3a; 
+					 }
+
+.clear				{ clear: both; }
+
+form				{ width: 406px; 
+	margin: 170px auto 0; }
+
+legend				{ display: none; }
+
+fieldset			{ border: 0; }
+
+label				{ width: 115px; text-align: right; float: left; margin: 0 10px 0 0; padding: 9px 0 0 0; font-size: 16px; }
+
+input				{ width: 220px; display: block; padding: 4px; margin: 0 0 10px 0; font-size: 18px;
+					  color: #3a3a3a; font-family: Georgia, serif;}
+input[type=checkbox]{ width: 20px; margin-left:0px; display: inline-block; }
+					  
+.button {
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #2980B9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px rgb(153, 153, 153);
+  position: relative;
+  float: right;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px rgb(92, 42, 42);
+  transform: translateY(4px);
+}
+
+.active {
+	color: #ff7200;
+}
+
+ 
+.kk{
+color: white;
+background-color:#2980B9 ;
+width: 70px;
+    height: 70px;
+ 
+}
+.kkk{
+  color: red;
+  background-color: #2980B9;
+  width: 70px;
+      height: 70px;
+   
+  }
+  
+    .kkkk{
+      color: #900C3F;
+      background-color: #2980B9;
+      width: 70px;
+          height: 70px;
+       
+      }
+	  .foot{
+		  position: absolute;
+		  top: 40px;
+	  }
+	  .div2{
+		height:20vh;
+			bottom: -120vh;
+			position: relative;
+			background-color: #13487c;
+
+	  }
+	  .div2 p{
+		  color:white;
+		  position: relative;
+		  float: right;
+		  margin-top: 15px;
+	  }
+	  .search{
+		  position: relative;
+		  top: 25vh;
+      left: 160vh;
+      position: fixed;
+
+	  }
+	  .search button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  right: -5px;
+  top: -3px;
+}
+
+.search button:hover {
+  background: #0b7dda;
+}
+
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.div2 h4{
+position: absolute;
+top: 100px;
+color: #fff;
+left: 10px;
+
+
+}
+#large{
+	color: black;
+		position: absolute;
+		left: 60px;}
+		#large:hover{
+		color: #ff7200;
+	}
+body{background-image: url("finance.jpg");}
+
+@media (max-width: 480px){
+	.nav{
+position: absolute;
+top: 25vh;
+left: 0vh;
+flex-direction: column;
+display: flex;
+background-color: #2980B9;
+padding: 10px;
+margin: 5px;
+width: 15%;
+
+z-index: 1;
+font-size: 10px;
+
+   }
+   
+	  .search{
+		  position: absolute;
+		  top: 25vh;
+       left: 30vh;
+      
+         
+	  }
+
+	  .search button {
+  float: left;
+  width: 10%;
+  padding: 5px;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  right: -5px;
+  bottom: -5vh;
+  height: 35px;
+}
+
+.search button:hover {
+  background: #0b7dda;
+}
+
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	  
+		.form{
+			width: 280px;
+			margin: 170px auto 0; 
+  	position: absolute;
+  	top: 40vh;
+  	left: 20vh;
+  	border-radius: 20px;
+  	padding: 25px;
+  	margin-top: 100px;
+	border: 2px solid #2980B9;
+	color:black;
+	font-weight: 300px;
+	  
+
+
+		}
+		#large{
+	color: black;
+		position: absolute;
+		left: 10px;}
+		header h2 {
+			position: absolute;
+			margin-top: 20px;
+			left: 25vh;
+		}
+		.hhh{
+			height:30vh;
+			bottom: -200vh;
+			position: absolute;
+			top: 170vh;
+			background-color: #2980B9;
+			width:100%;
+			display: flex;
+			color: white;
+			bottom: -40vh;
+			font-size: 10px;
+
+
+		
+		}
+		.div2{
+		height:20vh;
+			bottom: -200vh;
+			width: 100%;
+			position: relative;
+			background-color: #13487c;
+
+	  }
+	  .div2 h4{
+position: absolute;
+top: 30px;
+left: 0;
+color: #fff;
+left: 10px;
+
+
+}
+.div2 p{
+		  color:white;
+		  position: absolute;
+		  right: 0;
+		  margin-top: 15px;
+	  }
+	  .facebook{
+	  	position: absolute;
+	  	left: 0;
+	  }
+	  #face{
+	  	margin-left: 1px;
+	  }
+		 
+}
+@media(min-width: 768px)and (max-width: 992px){
+	.nav{
+position: absolute;
+top: 25vh;
+left: 0vh;
+flex-direction: column;
+display: flex;
+background-color: #2980B9;
+padding: 10px;
+margin: 5px;
+width: 15%;
+
+z-index: 1;
+font-size: 10px;
+
+   }
+    .search{
+		  position: absolute;
+		  top: 25vh;
+       left: 35vh;
+      
+         
+	  }
+
+	  .search button {
+  float: left;
+  width: 10%;
+  padding: 5px;
+  background: #2196F3;
+  color: white;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  position: absolute;
+  right: -5px;
+  bottom: -5vh;
+  height: 35px;
+}
+
+.search button:hover {
+  background: #0b7dda;
+}
+
+.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.form{
+			width: 280px;
+			margin: 170px auto 0; 
+  	position: absolute;
+  	top: 45vh;
+  	left: 20vh;
+  	border-radius: 20px;
+  	padding: 25px;
+  	margin-top: 100px;
+	border: 2px solid #2980B9;
+	color:black;
+	font-weight: 300px;
+	  
+
+
+		}
+		#large{
+	color: black;
+		position: absolute;
+		left: 10px;}
+		header h2 {
+			position: absolute;
+			margin-top: 20px;
+			left: 25vh;
+		}
+		.hhh{
+			height:30vh;
+			bottom: -200vh;
+			position: absolute;
+			top: 170vh;
+			background-color: #2980B9;
+			width:100%;
+			display: flex;
+			color: white;
+			bottom: -40vh;
+			font-size: 10px;
+
+
+		
+		}
+		.div2{
+		height:20vh;
+			bottom: -200vh;
+			width: 100%;
+			position: relative;
+			background-color: #13487c;
+
+	  }
+	  .div2 h4{
+position: absolute;
+top: 30px;
+left: 0;
+color: #fff;
+left: 10px;
+
+
+}
+.div2 p{
+		  color:white;
+		  position: absolute;
+		  right: 0;
+		  margin-top: 15px;
+	  }
+	  .facebook{
+	  	position: absolute;
+	  	left: 0;
+	  }
+	  #face{
+	  	margin-left: 1px;
+	  }
+
+	
+
+}
